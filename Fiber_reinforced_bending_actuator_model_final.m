@@ -35,13 +35,13 @@ P_atm= 101;
 % bottom layer of the actuator. Choose one the loops bellow:
 
 % A loop to change wall thickness (t);
-T=linspace(1,3,1000);
+T=linspace(1,3,100);
 
 % A loop to change the chamber radius (a):
-%  A=linspace(6,12,1000);
+%  A=linspace(6,12,100);
 
 % A loop to change the actuator length (l):
-%  L=linspace(80,180,1000);
+%  L=linspace(80,180,100);
 
 % starting pressure for simulations:
 P_in=0;
