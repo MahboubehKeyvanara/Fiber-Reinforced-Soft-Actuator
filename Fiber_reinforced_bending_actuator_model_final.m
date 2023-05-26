@@ -57,7 +57,7 @@ for n=1:length(T)
 
     % Part 1 of the integration (do not change):
     M1 = 0;
-    beta = linspace(0,b,1000);
+    beta = linspace(0,b,100);
     y_beta = beta .* theta/l+1;
     s_beta = mu * (y_beta-1 ./ (y_beta.^3));
     for i=2:length(beta)
@@ -68,7 +68,7 @@ for n=1:length(T)
 
     %part2 of the integration (do not change):
     M2 = 0;
-    tau = linspace(0,t,1000);
+    tau = linspace(0,t,100);
     MM = 0;
     phi = linspace(0,pi/2,length(tau));
     R = l/theta;
